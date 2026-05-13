@@ -93,3 +93,11 @@ Ensure you are aware of Cloudwatch metrics costs before enabling Cloudwatch agen
 cost you about $17/monthly, excluding free tier.  
 
 **IAM requirements**: `ssm:GetParameter` on the SSM Parameter ARN, and `cloudwatch:PutMetricData` on `*`.
+
+## NAT64
+
+fck-nat features NAT64 provided through [jool](https://www.jool.mx/en/index.html) as a mean to allow IPv6-only networks to
+communicate with external IPv4 networks, working seamlessly with the AWS' DNS64 feature.
+
+This feature is available in the NAT64-enabled AMIs (prefixed with `nat64-`) and is enabled at runtime only when jool
+is installed.

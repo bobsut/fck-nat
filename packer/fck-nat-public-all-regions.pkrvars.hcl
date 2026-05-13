@@ -1,5 +1,7 @@
 ami_regions = [
    "af-south-1",
+   "ap-east-1",
+   "ap-east-2",
    "ap-northeast-1",
    "ap-northeast-2",
    "ap-northeast-3",
@@ -9,6 +11,9 @@ ami_regions = [
    "ap-southeast-2",
    "ap-southeast-3",
    "ap-southeast-4",
+   "ap-southeast-5",
+   "ap-southeast-6",
+   "ap-southeast-7",
    "ca-central-1",
    "ca-west-1",
    "eu-central-1",
@@ -22,10 +27,12 @@ ami_regions = [
    "il-central-1",
    "me-central-1",
    "me-south-1",
+   "mx-central-1",
    "sa-east-1",
    "us-east-1",
    "us-east-2",
    "us-west-1",
-   "us-west-2"
+   "us-west-2",
 ]
 ami_groups = ["all"]
+snapshot_groups = ["all"]
